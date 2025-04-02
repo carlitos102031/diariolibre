@@ -45,6 +45,11 @@ nav {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 2rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .featured-article {

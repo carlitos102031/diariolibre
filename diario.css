@@ -1,9 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+ 
 }
+
 
 header {
     background: #fff;
@@ -18,7 +20,7 @@ header {
 }
 
 nav {
-    background: #c00;
+    background: rgb(19, 141, 7);
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -110,32 +112,3 @@ footer {
     margin-top: 1rem;
 }
 
-.footer-section a {
-    color: white;
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .main-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .article-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .sidebar {
-        border-left: none;
-        padding-left: 0;
-    }
-    
-    .nav-menu {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
-    
-    .footer-content {
-        grid-template-columns: 1fr;
-    }
-}
